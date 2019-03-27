@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 const FEATURES = {
-  Processor: [
+  "Processor": [
     {
       name: '17th Generation Intel Core HB (7 Core with donut spare)',
       cost: 700
@@ -12,7 +12,7 @@ const FEATURES = {
     {
       name: 'Professor X AMD Fire Breather with sidewinder technology',
       cost: 1200
-    }
+    },
   ],
   "Operating System": [
     {
@@ -34,7 +34,7 @@ const FEATURES = {
       cost: 1345
     }
   ],
-  Display: [
+  "Display": [
     {
       name: '15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs',
       cost: 1500
@@ -43,7 +43,7 @@ const FEATURES = {
       name: '15.3" HGTV (3840 x 2160) Home makeover edition',
       cost: 1400
     },
-  ]
+  ],
 };
 
 ReactDOM.render(<App features={FEATURES}/>, document.getElementById('root'));
